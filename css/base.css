@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --primary: #E94057;
+    --alt-primary: #FF8FAB;
+    --alt-secondary: #FB6F92;
+    --white: snow;
+    --alt-white: white;
+    --black: rgb(21, 21, 21);
+    --overlay: rgba(255, 143, 171, .5);
+    --gradient: linear-gradient(to right, var(--dark-light-primary), var(--light-primary));
+    --light-primary: #FFE5EC;
+    --dark-light-primary: #FFC2D1;
+    --transparent: rgba(248,248,248,.3)
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1280px;
+    min-height: 100vh;
+    background-color: var(--light-primary);
+}
+
+.dancing-script{
+    font-family: "Dancing Script", cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

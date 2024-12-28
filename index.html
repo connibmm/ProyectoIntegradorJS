@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+    </style>
+    <script src="app.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <h1 class="dancing-script">Aesthetic Nails</h1>
+        <nav id="menu">
+            <a href="#">Inicio</a>
+            <a href="#about">About</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <form>
+            <button type="button" id="btn-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="4" x2="20" y1="12" y2="12"/>
+                    <line x1="4" x2="20" y1="6" y2="6"/>
+                    <line x1="4" x2="20" y1="18" y2="18"/>
+                </svg>
+            </button>
+            <button type="button" id="btn-cart">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/>
+                    <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/>
+                </svg>
+            </button>
+        </form>
+        <dialog id="cart">
+            <section>
+                <header>
+                    <h2>Carrito</h2>
+                    <form>
+                        <button type="button" id="close-cart">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 6 6 18"/>
+                                <path d="m6 6 12 12"/>
+                            </svg>
+                        </button>
+                    </form>
+                </header>
+                <ul id="list-cart">
+                    <li>
+                        <picture><img src="https://placehold.co/400?text=1" alt="foto-producto-1"></picture>
+                        <form>
+                            <button type="button" data-role="resta">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"/>
+                                </svg>
+                            </button>
+                            <output>1</output>
+                            <button type="button" data-role="suma">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"/>
+                                    <path d="M12 5v14"/>
+                                </svg>
+                            </button>
+                        </form>
+                        <form>
+                            <button type="button" data-id="1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M3 6h18"/>
+                                    <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/>
+                                    <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/>
+                                    <line x1="10" x2="10" y1="11" y2="17"/>
+                                    <line x1="14" x2="14" y1="11" y2="17"/>
+                                </svg>
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </section>
+        </dialog>
+    </header>
+    <main>
+        <article>
+            <h2 class="dancing-script">Aesthetic Nails</h2>
+            <p>Expresá tu estilo a través del arte de las uñas. Desde los tratamientos más clásicos hasta los diseños más atrevidos, estamos comprometidos a ofrecerte resultados que superen tus expectativas, utilizando productos de alta calidad y las técnicas más actuales. Vení y descubrí cómo unas uñas cuidadas pueden hacerte sentir segura y fabulosa.</p>
+            <a href="#productos">Ver productos</a>
+        </article>
+        <picture>
+            <img src="./assets/portada.webp" alt="portada">
+        </picture>
+    </main>
+    <section id="about">
+        <header>
+            <h2>Sobre nosotros</h2>
+        </header>
+        <article>
+            <p>En Aesthetic Nails transformamos el cuidado de tus manos y pies en una experiencia única de relajación y estilo. Nos especializamos en diseños innovadores, técnicas modernas y productos de la más alta calidad para que tus uñas reflejen tu personalidad y buen gusto. Ya sea que busques un look natural, un diseño audaz o una tendencia de moda, nuestro equipo de profesionales está listo para crear el estilo perfecto para ti.</p>
+        </article>
+    </section>
+    <section id="productos">
+        <header>
+            <h2>Nuestros productos</h2>
+        </header>
+        <form>
+            <input type="radio" name="categoria" id="categoria-0" value="todos" checked>
+            <label for="categoria-0">Todos</label>
+            <input type="radio" name="categoria" id="categoria-1" value="Esmaltes">
+            <label for="categoria-1">Esmaltes</label>
+            <input type="radio" name="categoria" id="categoria-2" value="Cabinas">
+            <label for="categoria-2">Cabinas</label>
+            <input type="radio" name="categoria" id="categoria-3" value="Tornos">
+            <label for="categoria-3">Tornos</label>
+        </form>
+        <ul>
+            <li data-id="1" data-category="esmaltes">
+                <picture>
+                    <img src="https://placehold.co/400?text=1" alt="Imagen del producto 1">
+                </picture>
+                <dl>
+                    <dt>Descripción</dt>
+                    <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</dd>
+                    <dt>Precio</dt>
+                    <dd>$10.000</dd>
+                </dl>
+                <form>
+                    <button type="button">Agregar</button>
+                </form>
+            </li>
+        </ul>
+    </section>
+    <section id="contacto">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.3966322382194!2d-56.903210800000025!3d-37.167044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9d8839b7d189%3A0x9d13b3ac06e121a1!2sShopping%20Carilo!5e0!3m2!1ses!2sar!4v1732408198150!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <article>
+            <h2>Contactanos</h2>
+            <form>
+                <fieldset>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email">
+                    <span id="error-email"></span>
+                </fieldset>
+                <fieldset>
+                    <label for="phone">Teléfono:</label>
+                    <input type="tel" id="phone">
+                    <span id="error-phone"></span>
+                </fieldset>
+                <fieldset>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje"></textarea>
+                    <span id="error-mensaje"></span>
+                </fieldset>
+                <button>Enviar</button>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <p>&copy;AestheticNails | 2024</p>
+        <nav id="menu">
+            <a href="#">Inicio</a>
+            <a href="#about">About</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </footer>
+</body>
+</html>

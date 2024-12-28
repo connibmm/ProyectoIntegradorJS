@@ -1,0 +1,194 @@
+[
+    {
+      "id": 1,
+      "nombre": "Esmalte Rosa Pastel",
+      "descripcion": "Tono suave y elegante, ideal para cualquier ocasión.",
+      "precio": 6500,
+      "categoria": "Esmaltes",
+      "img": "./assets/rosa-pastel.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Esmalte Rojo Clásico",
+      "descripcion": "Color rojo intenso, perfecto para una apariencia sofisticada.",
+      "precio": 6500,
+      "categoria": "Esmaltes",
+      "img": "./assets/rojo-clasico.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "Esmalte Nude Natural",
+      "descripcion": "Tono nude que combina con cualquier estilo.",
+      "precio": 6500,
+      "categoria": "Esmaltes",
+      "img": "./assets/nude-natural.webp"
+    },
+    {
+      "id": 4,
+      "nombre": "Esmalte Azul Cielo",
+      "descripcion": "Color fresco y moderno, ideal para el día a día.",
+      "precio": 6500,
+      "categoria": "Esmaltes",
+      "img": "./assets/azul-cielo.webp"
+    },
+    {
+      "id": 5,
+      "nombre": "Esmalte Glitter Dorado",
+      "descripcion": "Con un toque de brillo dorado para ocasiones especiales.",
+      "precio": 6500,
+      "categoria": "Esmaltes",
+      "img": "./assets/glitter-dorado.webp"
+    },
+    {
+      "id": 6,
+      "nombre": "Esmalte Negro Intenso",
+      "descripcion": "Perfecto para un look audaz y elegante.",
+      "precio": 6500,
+      "categoria": "Esmaltes",
+      "img": "./assets/negro-intenso.webp"
+    },
+    {
+      "id": 7,
+      "nombre": "Esmalte Blanco Puro",
+      "descripcion": "Ideal para manicuras francesas o looks minimalistas.",
+      "precio": 6500,
+      "categoria": "Esmaltes",
+      "img": "./assets/blanco-puro.webp"
+    },
+    {
+      "id": 8,
+      "nombre": "Esmalte Verde Oliva",
+      "descripcion": "Un toque vibrante de verde para resaltar tus uñas.",
+      "precio": 6500,
+      "categoria": "Esmaltes",
+      "img": "./assets/verde-oliva.webp"
+    },
+    {
+      "id": 9,
+      "nombre": "Esmalte Coral Brillante",
+      "descripcion": "Color coral con un acabado radiante.",
+      "precio": 6500,
+      "categoria": "Esmaltes",
+      "img": "./assets/coral-brillante.webp"
+    },
+    {
+      "id": 10,
+      "nombre": "Esmalte Rosa Chicle",
+      "descripcion": "Divertido y juvenil, ideal para un toque de color.",
+      "precio": 6500,
+      "categoria": "Esmaltes",
+      "img": "./assets/rosa-chicle.webp"
+    },
+    {
+      "id": 11,
+      "nombre": "Esmalte Lila Suave",
+      "descripcion": "Color lila sutil, perfecto para cualquier temporada.",
+      "precio": 6500,
+      "categoria": "Esmaltes",
+      "img": "./assets/lila-suave.webp"
+    },
+    {
+      "id": 12,
+      "nombre": "Esmalte Caramel",
+      "descripcion": "Tono caramel, sofisticado y moderno.",
+      "precio": 6500,
+      "categoria": "Esmaltes",
+      "img": "./assets/caramel.webp"
+    },
+    {
+        "id": 13,
+        "nombre": "Cabina UV Portátil",
+        "descripcion": "Cabina ligera y portátil, ideal para llevar a cualquier lugar.",
+        "precio": 15000,
+        "categoria": "Cabinas",
+        "img": "./assets/cabina-13.webp"
+    },
+    {
+        "id": 14,
+        "nombre": "Cabina UV Profesional 48W",
+        "descripcion": "Potente cabina de 48W para secado rápido y eficiente.",
+        "precio": 26000,
+        "categoria": "Cabinas",
+        "img": "./assets/cabina-14.webp"
+    },
+    {
+        "id": 15,
+        "nombre": "Cabina LED/UV 36W",
+        "descripcion": "Combina tecnología LED y UV para un secado más completo.",
+        "precio": 22000,
+        "categoria": "Cabinas",
+        "img": "./assets/cabina-15.webp"
+    },
+    {
+        "id": 16,
+        "nombre": "Cabina UV Con Accesorios",
+        "descripcion": "Con accesorios y sensor automático de encendido y apagado.",
+        "precio": 20000,
+        "categoria": "Cabinas",
+        "img": "./assets/cabina-16.webp"
+    },
+    {
+        "id": 17,
+        "nombre": "Cabina UV 72W Ultra Rápida",
+        "descripcion": "Potente cabina de 72W que permite un secado en segundos.",
+        "precio": 28000,
+        "categoria": "Cabinas",
+        "img": "./assets/cabina-17.webp"
+    },
+    {
+        "id": 18,
+        "nombre": "Cabina LED/UV Mini",
+        "descripcion": "Perfecta para uñas de manos y pies, para principiantes.",
+        "precio": 18000,
+        "categoria": "Cabinas",
+        "img": "./assets/cabina-18.webp"
+    },
+    {
+        "id": 19,
+        "nombre": "Torno para Uñas 20.000 RPM",
+        "descripcion": "Torno de alta velocidad, ideal para manicuras y pedicuras de principiantes.",
+        "precio": 18000,
+        "categoria": "Tornos",
+        "img": "./assets/torno-19.webp"
+    },
+    {
+        "id": 20,
+        "nombre": "Torno para Uñas Portátil",
+        "descripcion": "Torno compacto y portátil, perfecto para llevar a cualquier lugar.",
+        "precio": 16000,
+        "categoria": "Tornos",
+        "img": "./assets/torno-20.webp"
+    },
+    {
+        "id": 21,
+        "nombre": "Torno para Uñas con Accesorios",
+        "descripcion": "Incluye varios accesorios para diferentes tipos de manicura y pedicura.",
+        "precio": 24000,
+        "categoria": "Tornos",
+        "img": "./assets/torno-21.webp"
+    },
+    {
+        "id": 22,
+        "nombre": "Torno para Uñas Inalámbrico",
+        "descripcion": "Torno eléctrico con velocidad ajustable para un control total.",
+        "precio": 17000,
+        "categoria": "Tornos",
+        "img": "./assets/torno-22.webp"
+    },
+    {
+        "id": 23,
+        "nombre": "Torno de Uñas Profesional 35.000 RPM",
+        "descripcion": "Torno profesional de alta rotación, hasta 35000 RPM para un acabado perfecto.",
+        "precio": 28000,
+        "categoria": "Tornos",
+        "img": "./assets/torno-23.webp"
+    },
+    {
+        "id": 24,
+        "nombre": "Torno de Uñas Compacto",
+        "descripcion": "Torno compacto y eficiente, ideal para espacio reducido.",
+        "precio": 14000,
+        "categoria": "Tornos",
+        "img": "./assets/torno-24.webp"
+    }      
+  ]
